@@ -1,15 +1,9 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloWorld", "HelloWorld\HelloWorld.vcxproj", "{1201A21A-E577-4AFA-AA48-5847A0771194}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controls", "Controls", "{4A1755E9-DB6D-4CD2-83FB-D8F2A18E0268}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elements", "Elements", "{E3059090-E87A-41E2-B657-C3589AE8EEBF}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Layouts", "Layouts", "{C017C3EE-52C1-42E8-99FE-8FD2A8C98C1C}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misc", "Misc", "{DE1AA97C-71E5-46E9-943F-BD852DDF5005}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Controls.Label.Hyperlink", "Controls.Label.Hyperlink\Controls.Label.Hyperlink.vcxproj", "{E1BA59EE-79FF-4484-BDC7-DE42DDA1E975}"
 EndProject
@@ -29,9 +23,40 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Controls.ListBox.VirtualMod
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Controls.ListBox.NameEditor", "Controls.ListBox.NameEditor\Controls.ListBox.NameEditor.vcxproj", "{3BEB18C5-2F88-447F-B52E-1EE3A912F81C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Controls.ListView.ViewSwitching", "Controls.ListView.ViewSwitching\Controls.ListView.ViewSwitching.vcxproj", "{88EA0F51-415E-4F4A-980D-5F6602903704}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Controls.ListView.VirtualMode", "Controls.ListView.VirtualMode\Controls.ListView.VirtualMode.vcxproj", "{978EB4E8-7462-40C5-9049-83FF9592BA75}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Controls.ListView.SortingAndFiltering", "Controls.ListView.SortingAndFiltering\Controls.ListView.SortingAndFiltering.vcxproj", "{EFB47B32-B002-4B92-A313-ACA8D96B266B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Controls.TreeView.FileExplorer", "Controls.TreeView.FileExplorer\Controls.TreeView.FileExplorer.vcxproj", "{C390D034-C335-409E-92E6-41740D71349D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Controls.Toolstrip.TextEditor", "Controls.Toolstrip.TextEditor\Controls.Toolstrip.TextEditor.vcxproj", "{EA1C16BF-1A9D-4DB1-8F9A-B32C53047164}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GacUIStaticLibrary", "GacUIStaticLibrary\GacUIStaticLibrary.vcxproj", "{6698C71D-0D4E-4031-846A-8698F9C9D658}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Controls.Scroll.ColorPicker", "Controls.Scroll.ColorPicker\Controls.Scroll.ColorPicker.vcxproj", "{1BFCF112-1FA5-404B-9CDD-77F9D8E38BE3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Template", "Template", "{B05A7B62-D27C-48B3-9AA6-AC15ABC38BD8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Template.Window.CustomizedBorder", "Template.Window.CustomizedBorder\Template.Window.CustomizedBorder.vcxproj", "{ED487B28-E445-464D-A09A-97BC9E57FC8D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6698C71D-0D4E-4031-846A-8698F9C9D658} = {6698C71D-0D4E-4031-846A-8698F9C9D658}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rendering", "Rendering", "{57FFC37A-0073-4D67-92D4-98FB5C4A309A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Rendering.RawAPI.GDI", "Rendering.RawAPI.GDI\Rendering.RawAPI.GDI.vcxproj", "{1AAAFFB1-0E0C-4D06-B18E-AC3816F97217}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Rendering.RawAPI.Direct2D", "Rendering.RawAPI.Direct2D\Rendering.RawAPI.Direct2D.vcxproj", "{FBAA9433-4B1B-44FF-8EC9-F7C037859ABC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Rendering.TextLayout.RichText", "Rendering.TextLayout.RichText\Rendering.TextLayout.RichText.vcxproj", "{6AB710A6-1530-4D9B-B954-E772B69E7373}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Controls.TextBox.AdvancedColorizer", "Controls.TextBox.AdvancedColorizer\Controls.TextBox.AdvancedColorizer.vcxproj", "{937ABCE3-B803-49EB-B907-CE72C123435B}"
+EndProject
 Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 11
+		SccNumberOfProjects = 23
 		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs02
 		SccLocalPath0 = .
@@ -74,6 +99,53 @@ Global
 		SccProjectTopLevelParentUniqueName10 = GacUIDemo.sln
 		SccProjectName10 = Controls.ListBox.NameEditor
 		SccLocalPath10 = Controls.ListBox.NameEditor
+		SccProjectUniqueName11 = Controls.ListView.ViewSwitching\\Controls.ListView.ViewSwitching.vcxproj
+		SccProjectTopLevelParentUniqueName11 = GacUIDemo.sln
+		SccProjectName11 = Controls.ListView.ViewSwitching
+		SccLocalPath11 = Controls.ListView.ViewSwitching
+		SccProjectUniqueName12 = Controls.ListView.VirtualMode\\Controls.ListView.VirtualMode.vcxproj
+		SccProjectTopLevelParentUniqueName12 = GacUIDemo.sln
+		SccProjectName12 = Controls.ListView.VirtualMode
+		SccLocalPath12 = Controls.ListView.VirtualMode
+		SccProjectUniqueName13 = Controls.ListView.SortingAndFiltering\\Controls.ListView.SortingAndFiltering.vcxproj
+		SccProjectTopLevelParentUniqueName13 = GacUIDemo.sln
+		SccProjectName13 = Controls.ListView.SortingAndFiltering
+		SccLocalPath13 = Controls.ListView.SortingAndFiltering
+		SccProjectUniqueName14 = Controls.TreeView.FileExplorer\\Controls.TreeView.FileExplorer.vcxproj
+		SccProjectTopLevelParentUniqueName14 = GacUIDemo.sln
+		SccProjectName14 = Controls.TreeView.FileExplorer
+		SccLocalPath14 = Controls.TreeView.FileExplorer
+		SccProjectUniqueName15 = Controls.Toolstrip.TextEditor\\Controls.Toolstrip.TextEditor.vcxproj
+		SccProjectTopLevelParentUniqueName15 = GacUIDemo.sln
+		SccProjectName15 = Controls.Toolstrip.TextEditor
+		SccLocalPath15 = Controls.Toolstrip.TextEditor
+		SccProjectUniqueName16 = GacUIStaticLibrary\\GacUIStaticLibrary.vcxproj
+		SccProjectName16 = GacUIStaticLibrary
+		SccLocalPath16 = GacUIStaticLibrary
+		SccProjectUniqueName17 = Controls.Scroll.ColorPicker\\Controls.Scroll.ColorPicker.vcxproj
+		SccProjectTopLevelParentUniqueName17 = GacUIDemo.sln
+		SccProjectName17 = Controls.Scroll.ColorPicker
+		SccLocalPath17 = Controls.Scroll.ColorPicker
+		SccProjectUniqueName18 = Template.Window.CustomizedBorder\\Template.Window.CustomizedBorder.vcxproj
+		SccProjectTopLevelParentUniqueName18 = GacUIDemo.sln
+		SccProjectName18 = Template.Window.CustomizedBorder
+		SccLocalPath18 = Template.Window.CustomizedBorder
+		SccProjectUniqueName19 = Rendering.RawAPI.GDI\\Rendering.RawAPI.GDI.vcxproj
+		SccProjectTopLevelParentUniqueName19 = GacUIDemo.sln
+		SccProjectName19 = Rendering.RawAPI.GDI
+		SccLocalPath19 = Rendering.RawAPI.GDI
+		SccProjectUniqueName20 = Rendering.RawAPI.Direct2D\\Rendering.RawAPI.Direct2D.vcxproj
+		SccProjectTopLevelParentUniqueName20 = GacUIDemo.sln
+		SccProjectName20 = Rendering.RawAPI.Direct2D
+		SccLocalPath20 = Rendering.RawAPI.Direct2D
+		SccProjectUniqueName21 = Rendering.TextLayout.RichText\\Rendering.TextLayout.RichText.vcxproj
+		SccProjectTopLevelParentUniqueName21 = GacUIDemo.sln
+		SccProjectName21 = Rendering.TextLayout.RichText
+		SccLocalPath21 = Rendering.TextLayout.RichText
+		SccProjectUniqueName22 = Controls.TextBox.AdvancedColorizer\\Controls.TextBox.AdvancedColorizer.vcxproj
+		SccProjectTopLevelParentUniqueName22 = GacUIDemo.sln
+		SccProjectName22 = Controls.TextBox.AdvancedColorizer
+		SccLocalPath22 = Controls.TextBox.AdvancedColorizer
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -120,6 +192,54 @@ Global
 		{3BEB18C5-2F88-447F-B52E-1EE3A912F81C}.Debug|Win32.Build.0 = Debug|Win32
 		{3BEB18C5-2F88-447F-B52E-1EE3A912F81C}.Release|Win32.ActiveCfg = Release|Win32
 		{3BEB18C5-2F88-447F-B52E-1EE3A912F81C}.Release|Win32.Build.0 = Release|Win32
+		{88EA0F51-415E-4F4A-980D-5F6602903704}.Debug|Win32.ActiveCfg = Debug|Win32
+		{88EA0F51-415E-4F4A-980D-5F6602903704}.Debug|Win32.Build.0 = Debug|Win32
+		{88EA0F51-415E-4F4A-980D-5F6602903704}.Release|Win32.ActiveCfg = Release|Win32
+		{88EA0F51-415E-4F4A-980D-5F6602903704}.Release|Win32.Build.0 = Release|Win32
+		{978EB4E8-7462-40C5-9049-83FF9592BA75}.Debug|Win32.ActiveCfg = Debug|Win32
+		{978EB4E8-7462-40C5-9049-83FF9592BA75}.Debug|Win32.Build.0 = Debug|Win32
+		{978EB4E8-7462-40C5-9049-83FF9592BA75}.Release|Win32.ActiveCfg = Release|Win32
+		{978EB4E8-7462-40C5-9049-83FF9592BA75}.Release|Win32.Build.0 = Release|Win32
+		{EFB47B32-B002-4B92-A313-ACA8D96B266B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EFB47B32-B002-4B92-A313-ACA8D96B266B}.Debug|Win32.Build.0 = Debug|Win32
+		{EFB47B32-B002-4B92-A313-ACA8D96B266B}.Release|Win32.ActiveCfg = Release|Win32
+		{EFB47B32-B002-4B92-A313-ACA8D96B266B}.Release|Win32.Build.0 = Release|Win32
+		{C390D034-C335-409E-92E6-41740D71349D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C390D034-C335-409E-92E6-41740D71349D}.Debug|Win32.Build.0 = Debug|Win32
+		{C390D034-C335-409E-92E6-41740D71349D}.Release|Win32.ActiveCfg = Release|Win32
+		{C390D034-C335-409E-92E6-41740D71349D}.Release|Win32.Build.0 = Release|Win32
+		{EA1C16BF-1A9D-4DB1-8F9A-B32C53047164}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EA1C16BF-1A9D-4DB1-8F9A-B32C53047164}.Debug|Win32.Build.0 = Debug|Win32
+		{EA1C16BF-1A9D-4DB1-8F9A-B32C53047164}.Release|Win32.ActiveCfg = Release|Win32
+		{EA1C16BF-1A9D-4DB1-8F9A-B32C53047164}.Release|Win32.Build.0 = Release|Win32
+		{6698C71D-0D4E-4031-846A-8698F9C9D658}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6698C71D-0D4E-4031-846A-8698F9C9D658}.Debug|Win32.Build.0 = Debug|Win32
+		{6698C71D-0D4E-4031-846A-8698F9C9D658}.Release|Win32.ActiveCfg = Release|Win32
+		{6698C71D-0D4E-4031-846A-8698F9C9D658}.Release|Win32.Build.0 = Release|Win32
+		{1BFCF112-1FA5-404B-9CDD-77F9D8E38BE3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1BFCF112-1FA5-404B-9CDD-77F9D8E38BE3}.Debug|Win32.Build.0 = Debug|Win32
+		{1BFCF112-1FA5-404B-9CDD-77F9D8E38BE3}.Release|Win32.ActiveCfg = Release|Win32
+		{1BFCF112-1FA5-404B-9CDD-77F9D8E38BE3}.Release|Win32.Build.0 = Release|Win32
+		{ED487B28-E445-464D-A09A-97BC9E57FC8D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ED487B28-E445-464D-A09A-97BC9E57FC8D}.Debug|Win32.Build.0 = Debug|Win32
+		{ED487B28-E445-464D-A09A-97BC9E57FC8D}.Release|Win32.ActiveCfg = Release|Win32
+		{ED487B28-E445-464D-A09A-97BC9E57FC8D}.Release|Win32.Build.0 = Release|Win32
+		{1AAAFFB1-0E0C-4D06-B18E-AC3816F97217}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1AAAFFB1-0E0C-4D06-B18E-AC3816F97217}.Debug|Win32.Build.0 = Debug|Win32
+		{1AAAFFB1-0E0C-4D06-B18E-AC3816F97217}.Release|Win32.ActiveCfg = Release|Win32
+		{1AAAFFB1-0E0C-4D06-B18E-AC3816F97217}.Release|Win32.Build.0 = Release|Win32
+		{FBAA9433-4B1B-44FF-8EC9-F7C037859ABC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FBAA9433-4B1B-44FF-8EC9-F7C037859ABC}.Debug|Win32.Build.0 = Debug|Win32
+		{FBAA9433-4B1B-44FF-8EC9-F7C037859ABC}.Release|Win32.ActiveCfg = Release|Win32
+		{FBAA9433-4B1B-44FF-8EC9-F7C037859ABC}.Release|Win32.Build.0 = Release|Win32
+		{6AB710A6-1530-4D9B-B954-E772B69E7373}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6AB710A6-1530-4D9B-B954-E772B69E7373}.Debug|Win32.Build.0 = Debug|Win32
+		{6AB710A6-1530-4D9B-B954-E772B69E7373}.Release|Win32.ActiveCfg = Release|Win32
+		{6AB710A6-1530-4D9B-B954-E772B69E7373}.Release|Win32.Build.0 = Release|Win32
+		{937ABCE3-B803-49EB-B907-CE72C123435B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{937ABCE3-B803-49EB-B907-CE72C123435B}.Debug|Win32.Build.0 = Debug|Win32
+		{937ABCE3-B803-49EB-B907-CE72C123435B}.Release|Win32.ActiveCfg = Release|Win32
+		{937ABCE3-B803-49EB-B907-CE72C123435B}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -134,5 +254,16 @@ Global
 		{5B44540E-78B6-4355-AC15-4DE8B88F3781} = {4A1755E9-DB6D-4CD2-83FB-D8F2A18E0268}
 		{0BFBD83F-961F-4A6E-A6D7-3B771B298D2E} = {4A1755E9-DB6D-4CD2-83FB-D8F2A18E0268}
 		{3BEB18C5-2F88-447F-B52E-1EE3A912F81C} = {4A1755E9-DB6D-4CD2-83FB-D8F2A18E0268}
+		{88EA0F51-415E-4F4A-980D-5F6602903704} = {4A1755E9-DB6D-4CD2-83FB-D8F2A18E0268}
+		{978EB4E8-7462-40C5-9049-83FF9592BA75} = {4A1755E9-DB6D-4CD2-83FB-D8F2A18E0268}
+		{EFB47B32-B002-4B92-A313-ACA8D96B266B} = {4A1755E9-DB6D-4CD2-83FB-D8F2A18E0268}
+		{C390D034-C335-409E-92E6-41740D71349D} = {4A1755E9-DB6D-4CD2-83FB-D8F2A18E0268}
+		{EA1C16BF-1A9D-4DB1-8F9A-B32C53047164} = {4A1755E9-DB6D-4CD2-83FB-D8F2A18E0268}
+		{1BFCF112-1FA5-404B-9CDD-77F9D8E38BE3} = {4A1755E9-DB6D-4CD2-83FB-D8F2A18E0268}
+		{937ABCE3-B803-49EB-B907-CE72C123435B} = {4A1755E9-DB6D-4CD2-83FB-D8F2A18E0268}
+		{ED487B28-E445-464D-A09A-97BC9E57FC8D} = {B05A7B62-D27C-48B3-9AA6-AC15ABC38BD8}
+		{1AAAFFB1-0E0C-4D06-B18E-AC3816F97217} = {57FFC37A-0073-4D67-92D4-98FB5C4A309A}
+		{FBAA9433-4B1B-44FF-8EC9-F7C037859ABC} = {57FFC37A-0073-4D67-92D4-98FB5C4A309A}
+		{6AB710A6-1530-4D9B-B954-E772B69E7373} = {57FFC37A-0073-4D67-92D4-98FB5C4A309A}
 	EndGlobalSection
 EndGlobal
